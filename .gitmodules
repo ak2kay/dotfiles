@@ -7,3 +7,6 @@
 [submodule "dotfiles/nvim"]
 	path = dotfiles/nvim
 	url = https://github.com/datsfilipe/datsnvim.git
+[submodule "dotfiles/lazynvim"]
+	path = dotfiles/lazynvim
+	url = git@git.enceinte.cc:ak2kay/lazy.git
