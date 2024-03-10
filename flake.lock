@@ -24,7 +24,7 @@
         "dirtyRev": "7474efb4940585509dce2204aed6af11418b96c0-dirty",
         "dirtyShortRev": "7474efb-dirty",
         "lastModified": 1706891409,
-        "narHash": "sha256-/wfxh7jcuQspd52oCGn4kMCnNVDah+nWlykd04HrQBM=",
+        "narHash": "sha256-lg3XRGKvQ8JxsGA+xMv3LZcR79iwM6ugAEWhiHNyaL0=",
         "shallow": true,
         "type": "git",
         "url": "file:///home/isvk/.dotfiles/dotfiles/nvim"
