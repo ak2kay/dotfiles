@@ -1,4 +1,4 @@
-import = ["/home/dtsf/.config/alacritty/colors.toml"]
+import = ["/home/nixos/.config/alacritty/colors.toml"]
 
 [cursor]
 style = { shape = "Block", blinking = "On" }

@@ -1,9 +1,9 @@
 [submodule "modules/walls"]
 	path = modules/walls
-	url = git@github.com:datsfilipe/walls
+	url = https://github.com/datsfilipe/walls.git
 [submodule "dotfiles/bin"]
 	path = dotfiles/bin
-	url = git@github.com:datsfilipe/unix-scripts
+	url = https://github.com/datsfilipe/unix-scripts.git
 [submodule "dotfiles/nvim"]
 	path = dotfiles/nvim
-	url = git@github.com:datsfilipe/datsnvim
+	url = https://github.com/datsfilipe/datsnvim.git
