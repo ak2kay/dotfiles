@@ -15,7 +15,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://aka.ms/TunnelsCliDownload/linux-x64";
-    sha256 = "sha256-3DlTvpwv+pxKYhs/+bNzwws4TjY5W/iMn4J65uLPvFY=";
+    sha256 = "sha256-SncuqVWkx0wQaoVH/VjkxwWZM1zR5SUrUccI2II3kik=";
   };
 
   meta = with lib; {
