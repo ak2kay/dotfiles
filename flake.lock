@@ -27,12 +27,12 @@
         "rev": "a074153e860946b210fac472f1d4f26d06aef5d9",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/dotfiles/nvim"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/nvim"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/dotfiles/nvim"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/nvim"
       }
     },
     "flake-utils": {
@@ -175,12 +175,12 @@
         "rev": "01fda7a09b725924741c00363d1bff4a5c9b7e28",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/dotfiles/bin"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/bin"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/dotfiles/bin"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/bin"
       }
     },
     "walls": {
@@ -192,12 +192,12 @@
         "rev": "f4b4000d3cdaa4ec45ddb6d7f6f44434470b8878",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/modules/walls"
+        "url": "file:///home/isvk/.dotfiles/modules/walls"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/nixos/.dotfiles/modules/walls"
+        "url": "file:///home/isvk/.dotfiles/modules/walls"
       }
     }
   },
