@@ -27,12 +27,12 @@
         "narHash": "sha256-/wfxh7jcuQspd52oCGn4kMCnNVDah+nWlykd04HrQBM=",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/dotfiles/nvim"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/nvim"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/dotfiles/nvim"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/nvim"
       }
     },
     "flake-utils": {
@@ -175,12 +175,12 @@
         "rev": "57af6f76bc6678dda60d109638ee52681dae3641",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/dotfiles/bin"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/bin"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/dotfiles/bin"
+        "url": "file:///home/isvk/.dotfiles/dotfiles/bin"
       }
     },
     "walls": {
@@ -192,12 +192,12 @@
         "rev": "1a93ea51134ea97dbf321c3c70b46e3c8d7b2062",
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/modules/walls"
+        "url": "file:///home/isvk/.dotfiles/modules/walls"
       },
       "original": {
         "shallow": true,
         "type": "git",
-        "url": "file:///home/dtsf/.dotfiles/modules/walls"
+        "url": "file:///home/isvk/.dotfiles/modules/walls"
       }
     }
   },
