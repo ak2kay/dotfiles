@@ -13,6 +13,10 @@
       url = "git+file:///home/isvk/.dotfiles/dotfiles/nvim?shallow=1";
       flake = false;
     };
+    vknvim = {
+      url = "git+file:///home/isvk/.dotfiles/dotfiles/lazynvim/?shallow=1";
+      flake = false;
+    };
     walls = {
       url = "git+file:///home/isvk/.dotfiles/modules/walls?shallow=1";
       flake = false;
