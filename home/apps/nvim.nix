@@ -11,6 +11,7 @@ in {
   programs.neovim = {
     enable = true;
     vimAlias = true;
+    extraLuaPackages = ps: [ ps.magick ];
   };
 
   #xdg.configFile."nvim/lua/utils/nix_colorscheme.lua".text = ''
