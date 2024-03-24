@@ -18,6 +18,7 @@ let
     exec-once=ags
     exec-once=udiskie --tray --notify
     exec-once=${pkgs.swaybg}/bin/swaybg -m fill -i $HOME/.config/wallpaper.png
+    exec-once=fcitx5 -d
   '';
 
   hyprlandThemeConfig = ''
@@ -34,7 +35,7 @@ let
     $mainMod=SUPER
 
     bind=$mainMod,Return,exec,alacritty
-    bind=$mainMod,A,exec,chromium
+    bind=$mainMod,A,exec,chromium --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime
     bind=,print,exec,${pkgs.grim}/bin/grim -g "$(${pkgs.slurp}/bin/slurp)" - | ${pkgs.swappy}/bin/swappy -f - -o ~/media/photos/$(date +%Hh_%Mm_%Ss_%d_%B_%Y).png && notify-send "Saved to ~/media/photos/$(date +%Hh_%Mm_%Ss_%d_%B_%Y).png"
     bind=$mainMod,Q,killactive
     bind=$mainMod,Space,togglefloating

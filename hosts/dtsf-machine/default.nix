@@ -48,12 +48,20 @@
   # disable networkmanager-wait-online
   systemd.services.NetworkManager-wait-online.enable = false;
 
-  time.timeZone = "America/Belem";
+  time.timeZone = "Asia/Shanghai";
   i18n = {
     defaultLocale = "en_US.UTF-8";
     extraLocaleSettings = {
-      LC_TIME = "pt_BR.UTF-8";
-      LC_MONETARY = "pt_BR.UTF-8";
+      LC_TIME = "zh_CN.UTF-8";
+      LC_MONETARY = "zh_CN.UTF-8";
+    };
+
+    inputMethod = {
+        enabled = "fcitx5";
+        fcitx5.addons = with pkgs; [
+            fcitx5-gtk
+            fcitx5-rime
+        ];
     };
   };
   console = {
