@@ -8,6 +8,14 @@
   boot = {
     kernelPackages = pkgs.linuxPackages_6_6;
 
+    kernel = {
+      sysctl = {
+        # forward network packets that are not destined for the interface on which they were received
+        "net.ipv4.conf.all.forwarding" = true;
+        "net.ipv6.conf.all.forwarding" = true;
+      };
+    };
+
     loader = {
       systemd-boot.enable = false;
       efi.canTouchEfiVariables = true;
@@ -80,6 +88,10 @@
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
+  };
+  services.tailscale = {
+    enable = true;
+    useRoutingFeatures = "both";
   };
 
   programs = {
