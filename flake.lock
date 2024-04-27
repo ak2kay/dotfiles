@@ -127,29 +127,9 @@
         "datsnvim": "datsnvim",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs_2",
-        "spicetify-nix": "spicetify-nix",
         "unix-scripts": "unix-scripts",
         "vknvim": "vknvim",
         "walls": "walls"
-      }
-    },
-    "spicetify-nix": {
-      "inputs": {
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs_3"
-      },
-      "locked": {
-        "lastModified": 1704167711,
-        "narHash": "sha256-kFDq+kf/Di/P8bq5sUP8pVwRkrSVrABksBjMPmLic3s=",
-        "owner": "the-argus",
-        "repo": "spicetify-nix",
-        "rev": "1325416f951d6a82cfddb1289864ad782e2b87c4",
-        "type": "github"
-      },
-      "original": {
-        "owner": "the-argus",
-        "repo": "spicetify-nix",
-        "type": "github"
       }
     },
     "systems": {
@@ -191,6 +171,7 @@
         "narHash": "sha256-IxK8t0fsShRK7Biy22/dY7c1FkA21mU+XEUeQ97jyWg=",
         "ref": "refs/heads/main",
         "rev": "0cc136227fa00a44efcbfe0bafce106352919fb0",
+        "revCount": 111,
         "shallow": true,
         "type": "git",
         "url": "file:///home/isvk/.dotfiles/dotfiles/lazynvim/"

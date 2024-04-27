@@ -1,5 +1,4 @@
 [
-  ./spicetify.nix
   ./ags.nix
   ./chromium.nix
   ./nvim.nix

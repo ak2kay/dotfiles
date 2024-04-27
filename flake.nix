@@ -8,7 +8,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     ags.url = "github:Aylur/ags";
-    spicetify-nix.url = "github:the-argus/spicetify-nix";
     datsnvim = {
       url = "git+file:///home/isvk/.dotfiles/dotfiles/nvim?shallow=1";
       flake = false;
