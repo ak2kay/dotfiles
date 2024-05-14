@@ -1,5 +1,5 @@
 { pkgs, vars, ... }:
 
 {
-  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.host.enable = false;
 }

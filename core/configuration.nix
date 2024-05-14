@@ -37,7 +37,7 @@
 
   users.users.${vars.user} = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "libvirtd" ];
     shell = pkgs.fish;
     ignoreShellProgramCheck = true;
   };
