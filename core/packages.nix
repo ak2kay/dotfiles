@@ -26,6 +26,9 @@ in {
     slack
     zoom-us
     beekeeper-studio
+    obsidian
+    # for connecting mac remote desktop
+    remmina
 
     # utilities
     git
